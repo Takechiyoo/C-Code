@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1419598028 source:d:\c++\leetcode\excel sheet column title\main.cpp
+	<iostream>
+	<vector>
+

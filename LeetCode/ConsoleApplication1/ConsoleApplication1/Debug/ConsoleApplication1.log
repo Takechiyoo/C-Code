@@ -1,0 +1,86 @@
+﻿生成启动时间为 2015/12/2 22:20:35。
+     1>项目“D:\C++\LeetCode\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt build.cpp main.cpp
+         main.cpp
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(175): error C2661: “std::list<Edge,std::allocator<_Ty>>::insert”: 没有重载函数接受 1 个参数
+                 with
+                 [
+                     _Ty=Edge
+                 ]
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(26): error C2011: “Edge”:“class”类型重定义
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(26) : 参见“Edge”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(41): error C2011: “Node”:“class”类型重定义
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(41) : 参见“Node”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(76): error C2011: “Graph”:“class”类型重定义
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(76) : 参见“Graph”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(15): error C2027: 使用了未定义类型“Graph”
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(76) : 参见“Graph”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(16): error C2079: “g”使用未定义的 class“Graph”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(16): error C2027: 使用了未定义类型“Graph”
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(76) : 参见“Graph”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(16): error C2227: “->{ctor}”的左边必须指向类/结构/联合/泛型类型
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(17): error C2440: “初始化”: 无法从“std::vector<Edge,std::allocator<_Ty>> *”转换为“std::vector<Edge,std::allocator<_Ty>>”
+                 with
+                 [
+                     _Ty=Edge
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(29): error C2079: “record”使用未定义的 class“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(29): error C2440: “初始化”: 无法从“std::string”转换为“int”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(30): warning C4552: “>>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(31): warning C4552: “>>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(32): error C2079: “m”使用未定义的 class“Node”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(32): error C2027: 使用了未定义类型“Node”
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(41) : 参见“Node”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(33): error C2079: “n”使用未定义的 class“Node”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(33): error C2027: 使用了未定义类型“Node”
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(41) : 参见“Node”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(34): error C2079: “e”使用未定义的 class“Edge”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(34): error C2027: 使用了未定义类型“Edge”
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(26) : 参见“Edge”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(35): error C2228: “.addNode”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(36): error C2228: “.addNode”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(37): error C2228: “.addEdge”的左边必须有类/结构/联合
+                 类型是“int”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\main.cpp(11): error C2440: “初始化”: 无法从“GraphBuilder *”转换为“GraphBuilder”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\main.cpp(12): error C2079: “g”使用未定义的 class“Graph”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\main.cpp(12): error C2027: 使用了未定义类型“Graph”
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(76) : 参见“Graph”的声明
+                 d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(76) : 参见“Graph”的声明
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\main.cpp(12): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         build.cpp
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\graph.h(175): error C2661: “std::list<Edge,std::allocator<_Ty>>::insert”: 没有重载函数接受 1 个参数
+                 with
+                 [
+                     _Ty=Edge
+                 ]
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(16): error C2440: “初始化”: 无法从“Graph *”转换为“Graph”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(17): error C2440: “初始化”: 无法从“std::vector<Edge,std::allocator<_Ty>> *”转换为“std::vector<Edge,std::allocator<_Ty>>”
+                 with
+                 [
+                     _Ty=Edge
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(29): error C2079: “record”使用未定义的 class“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(29): error C2440: “初始化”: 无法从“std::string”转换为“int”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(30): warning C4552: “>>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(31): warning C4552: “>>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(32): error C2440: “初始化”: 无法从“Node *”转换为“Node”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(33): error C2440: “初始化”: 无法从“Node *”转换为“Node”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>d:\c++\leetcode\consoleapplication1\consoleapplication1\build.cpp(34): error C2440: “初始化”: 无法从“Edge *”转换为“Edge”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+         正在生成代码...
+     1>已完成生成项目“D:\C++\LeetCode\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.08
